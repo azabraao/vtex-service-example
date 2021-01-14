@@ -1236,7 +1236,7 @@
   resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.8.0.tgz#8b63ab7f1aa5321248aad5ac890a485656dcea4d"
   integrity sha512-te5lMAWii1uEJ4FwLjzdlbw3+n0FZNOvFXHxQDKeT0dilh7HOzdMzV2TrJVUzq8ep7J4Na8OUYPRLSQkJHAlrg==
 
-"@vtex/api@6.37.1":
+"@vtex/api@6.37.1", "@vtex/api@6.x":
   version "6.37.1"
   resolved "https://registry.yarnpkg.com/@vtex/api/-/api-6.37.1.tgz#d6ded4f4a98e10596729af7097cff18be43a0e54"
   integrity sha512-24BaVHCIbkC84UWAlGPuTnUYIFngOpeRa4u/6KCJDnir5GXjoCWAkj4E7OoQ2uvBy/uvs9X2+DIkqtiz1x5bvw==
@@ -1280,6 +1280,13 @@
     tar-fs "^2.0.0"
     uuid "^3.3.3"
     xss "^1.0.6"
+
+"@vtex/clients@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@vtex/clients/-/clients-2.4.1.tgz#c7e1cd1589e25816f15fac5efca0be5255a6a591"
+  integrity sha512-khaauQrKaYJvjDpr3AzlKbKvlk9wkm1GYJOFQuu7dAWga7cxO4BEcFL5ogveSYZscBpW6vQv/UJV3yq0+VbVhg==
+  dependencies:
+    "@vtex/api" "6.x"
 
 "@vtex/node-error-report@^0.0.3":
   version "0.0.3"
@@ -5228,7 +5235,6 @@ static-extend@^0.1.1:
     object-copy "^0.1.0"
 
 stats-lite@vtex/node-stats-lite#dist:
-"stats-lite@github:vtex/node-stats-lite#dist":
   version "2.2.0"
   resolved "https://codeload.github.com/vtex/node-stats-lite/tar.gz/1b0d39cc41ef7aaecfd541191f877887a2044797"
   dependencies:
