@@ -6,7 +6,7 @@ export async function validate(ctx: Context, next: () => Promise<any>) {
       route: { params },
     },
   } = ctx
-
+  console.log(ctx.vtex.authToken)
   console.info('Received params:', params)
 
   const { code } = params
